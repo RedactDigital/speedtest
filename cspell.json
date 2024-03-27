@@ -1,0 +1,47 @@
+{
+  //Version of the Setting File.  Always 0.2
+  "version": "0.2",
+  /**
+   * These are Prebuilt Dictionaries for Cspell.
+   */
+  "dictionaries": [
+    "en_US",
+    "companies",
+    "typescript",
+    "softwareTerms",
+    "bash",
+    "css",
+    "html",
+    "node",
+    "npm",
+    "filetypes",
+    "fonts"
+  ],
+  //Language - Current Active Spelling Language
+  "language": "en",
+  //Words - List of Words to be Always Considered Correct
+  "words": ["bunx", "sira", "vetur"],
+  /**
+   * Flagwords - List of Words to be Always Considered Incorrect
+   * This is Useful for Offensive Words and Common Spelling Errors.
+   * For Example "hte" Should be "the"
+   */
+  "flagWords": [],
+  /**
+   * Ignorepaths - List of Glob Patterns to Ignore Files
+   * This is Useful for Ignoring Files That are not Source Code.   *
+   * We are Using the --gitignore Flag so This is not Needed we
+   * Only Need to Ignore Stuff not in Gitignore
+   */
+  "ignorePaths": ["bun.lockb", "cspell.json"],
+  /**
+   * Usegitignore - use .gitignore File(s) to Exclude Files and Folders
+   */
+  "useGitignore": true,
+  /**
+   * Compound Words are Words That are Built by Combining two or More Words.
+   * For Example: "spellchecker" is a Compound Word and by Default Cspell Considers This
+   * To be two Words "spell" and "checker" so it Will Fail
+   */
+  "allowCompoundWords": true
+}
