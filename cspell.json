@@ -20,7 +20,12 @@
   //Language - Current Active Spelling Language
   "language": "en",
   //Words - List of Words to be Always Considered Correct
-  "words": ["bunx", "sira", "vetur"],
+  "words": [
+    "bunx",
+    "Mbps",
+    "sira",
+    "vetur"
+  ],
   /**
    * Flagwords - List of Words to be Always Considered Incorrect
    * This is Useful for Offensive Words and Common Spelling Errors.
@@ -33,7 +38,10 @@
    * We are Using the --gitignore Flag so This is not Needed we
    * Only Need to Ignore Stuff not in Gitignore
    */
-  "ignorePaths": ["bun.lockb", "cspell.json"],
+  "ignorePaths": [
+    "bun.lockb",
+    "cspell.json"
+  ],
   /**
    * Usegitignore - use .gitignore File(s) to Exclude Files and Folders
    */
