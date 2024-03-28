@@ -86,9 +86,7 @@
               ? 'border-yellow-500'
               : 'border-green-500'
           } origin-right transform-gpu duration-500`"
-          :style="`
-        transform: rotate(${averageSpeed > 180 ? 180 : (averageSpeed / 100) * 180}deg);
-        `"
+          :style="`transform: rotate(${averageSpeed > 180 ? 180 : (averageSpeed / 100) * 180}deg);`"
         />
       </div>
       <!-- Speed -->
